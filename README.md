@@ -24,12 +24,16 @@ with Flow().add(uses=my_image_tag):
 
 ## Contribute to This Repository
 
-### Create a New Executor
-
+### Installation
 ```bash
 git clone https://github.com/jina-ai/jina-hub.git
 
 pip install "jina[hub]"
+```
+Install [Docker](https://docs.docker.com/get-docker/).
+
+### Create a New Executor
+```bash
 jina hub new --type pod
 ```
 
